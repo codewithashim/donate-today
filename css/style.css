@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.d_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.f_dir_r {
+  flex-direction: row;
+}
+
+#main_header {
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5) url(../assate/images/donation13.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-blend-mode: color;
+}
+
+.donet_btn {
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+  background: tomato;
+  color: #fff;
+}
+
+.header_text {
+  padding-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_text h1,
+p {
+  width: 80%;
+  text-align: center;
+  font-size: 4rem;
+  color: #fff;
+}
+
+.header_text p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.2rem;
+  color: rgb(226, 214, 214);
+}
+
+.donate_today {
+  width: 100%;
+  height: 100vh;
+  padding: 2rem;
+  background: whitesmoke;
+}
+
+.donet_title,
+.donet_plan_title {
+  padding-top: 5%;
+}
+
+.donet_title h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.donet_title p {
+  width: 70%;
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+}
+
+.donet_price_tk_list {
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.donet_price_tk_list a {
+  padding: 2rem;
+  font-size: 2rem;
+  cursor: pointer;
+  background: rgba(211, 236, 245, 0.304);
+  border-radius: 0.3rem;
+  /* box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5); */
+  transition: cubic-bezier(1, 0, 0, 1) 0.6s;
+}
+
+.donet_price_tk_list a:hover {
+  background: transparent;
+  border: 4px solid tomato;
+  color: tomato;
+}
+
+.send-donte input {
+  width: 70%;
+  text-align: center;
+  padding: 0.4rem;
+  border: none;
+  outline: none;
+}
+
+.send-donte .devider {
+  margin-top: 1rem;
+  margin-bottom: 1.2rem;
+  width: 70%;
+  height: 3px;
+  background: gray;
+}
+
+.send-donte a {
+  margin-bottom: 1.2rem;
+}
+
+#donate_plan {
+  width: 100%;
+  height: auto;
+}
+.donet_plan_title h1 {
+  text-align: center;
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+}
+
+.donet_plan_title p {
+  width: 70%;
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 1.6rem;
+}
+
+.donet_plan_list {
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+.donet_plan_box {
+  border-radius: 0.6rem;
+  padding: 1.5rem;
+  width: 30%;
+  /* border: 1px solid black; */
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+  /* height: 20rem; */
+  height: auto;
+}
+
+.donet_plan_box:nth-child(1) {
+  background: rgba(135, 207, 235, 0.3);
+}
+.donet_plan_box:nth-child(2) {
+  background: rgba(255, 99, 71, 0.3);
+}
+.donet_plan_box:nth-child(3) {
+  background: rgba(231, 210, 22, 0.3);
+}
+.donet_plan_box img {
+  width: 4.54rem;
+}
+.donet_plan_box h3 {
+  width: auto;
+  font-size: 1.6rem;
+  margin-top: 1.6rem;
+  text-align: left;
+  color: black;
+}
+.donet_plan_box p {
+  width: auto;
+  margin-top: 1rem;
+  text-align: left;
+  color: rgb(157, 151, 151);
+  font-size: 16px;
+}
+
+#donet_right_des,
+#donet_left_des {
+  padding-top: 5%;
+  width: 100%;
+  height: auto;
+}
+
+.main_contant_right_des {
+  gap: 2rem;
+}
+
+.main_contant_right_des .left_content p {
+  font-size: 1.1rem;
+  color: black;
+  text-align: left;
+}
+
+.main_contant_right_des .left_content h1 {
+  font-size: 3rem;
+  color: black;
+  text-align: left;
+}
+
+/* ===== */
+
+.main_contant_left_des {
+  gap: 2rem;
+}
+
+#donate_left_des {
+  padding: 5rem;
+}
+
+.left_dir_left_content {
+  width: 50%;
+}
+
+.left_dir_left_content img {
+  width: 100%;
+}
+
+.lefr_dir_right_contant {
+  width: 50%;
+}
+
+.lefr_dir_right_contant h1 {
+  font-size: 3rem;
+  color: black;
+  text-align: left;
+}
+
+.lefr_dir_right_contant p {
+  font-size: 1.1rem;
+  color: black;
+  text-align: left;
+}
+
+footer{
+    width: 100%;
+    height: 3rem;
+    background: rgb(13, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer a{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+}
